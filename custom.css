@@ -153,8 +153,29 @@ nav ol li a:hover {
 /*------------------------   register page  only  ------------------------------ */
 #register-form input, select {
     margin-bottom: 1em;
-    font-size: 14pt;
-    border-radius: 5px;
+    font-size: 12pt;
+    border-radius: 2px;
+    border-style: solid;
+    border: thin solid gray;
+    font-family: ;
+}
+
+#register h2 {
+    text-align: center;
+}
+
+#register-form input {
+    width: 200px;
+}
+
+#register-form #comment {
+    width: 500px;
+    height: 200px;
+    vertical-align: text-top;
+}
+
+#register-form #btnSubmit {
+    width: 75px;
 }
 
 
