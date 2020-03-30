@@ -60,7 +60,9 @@ fclose($file);
 
 ?>
 
-<h2>Register</h2>
+<h2>Want to Get Your Bar on OnTap?</h2>
+
+<h3>To Register Your Bar for OnTap, please fill out the following form:</h3>
 
 <form id="register-form">
 	<input type="text" placeholder="First Name" name="firstName"><br>
@@ -74,20 +76,21 @@ fclose($file);
 		<?php
 
 			$lastState="";
-			$i = "";
+			$i = 0;
 
 			foreach($stateDetails as $stateDetail) {
-    			if ($lastState != "WY"/*$stateDetail[count($stateDetails)-1]*/) {
+    			if ($i != $stateDetail[count($stateDetails)-1]) {
     				print '<option value="' + $stateDetail[$i]; + '" >' + $stateDetail[$i] + '</option>';
     			}
-    			$lastState = $stateDetail;
+    			$i+=1;
     		}
 
 		?>
 		<!-- NEED TO FILL IN W STATES -->
 	</select>
 	<input type="text" placeholder="Zip Code" name="zipCode"><br>
-	<input type="button" value="Submit">
+    <input type="text" placeholder="Optional..." name="comment" id="comment"><br>
+	<input type="button" value="Submit" id="btnSubmit">
 </form>
 
 <?php
