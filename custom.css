@@ -40,15 +40,12 @@ header{
     padding-top: .3em;
 }
 
-p{
-    padding: 1em 0 1em 0;
-}
-
 footer p {
     font-size: 0.5em;
     background-color: #D80000;
     text-align: center;
     margin-top: 10em;
+    padding: 1em 0 1em 0;
 }
 
 section{
@@ -61,14 +58,6 @@ fieldset {
     border: none;
 }
 
-img {
-    width: 11em;
-    height: 5em;
-    margin-left: 1.5em;
-    padding-bottom: .3em;
-    padding-top: .3em;
-}
-
 /*------------------------   footer section only   ------------------------------ */
 
 #footer-list {
@@ -78,8 +67,8 @@ img {
 #footer-list > li {
     display: inline-block;
     list-style-type: none;
-    padding-right: 4em;
-    padding-left: 4em;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 
 #footer-list li {
@@ -130,6 +119,10 @@ nav {
     margin-top: 1.15em;
 }
 
+#ontap-logo {
+    height: 5em;
+}
+
 /*------------------------   nav section only  ------------------------------ */
 
 nav ol li{
@@ -149,6 +142,17 @@ nav ol li a:hover {
 }
 
 /*------------------------   index page  only  ------------------------------ */
+#ontap-app-icon {
+    height: 5em;
+}
+
+#home-page-app-download {
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    align-self: right;
+    text-align: center;
+    float: right;
+}
 
 /*------------------------   register page  only  ------------------------------ */
 #register-form input, select {
@@ -157,25 +161,65 @@ nav ol li a:hover {
     border-radius: 2px;
     border-style: solid;
     border: thin solid gray;
-    font-family: ;
 }
 
-#register h2 {
-    text-align: center;
-}
-
-#register-form input {
+.long-input {
     width: 200px;
+}
+
+.phone {
+    width: 32px;
+    margin-bottom: 0;
+}
+
+#line-num {
+    width: 41px;
+    margin-bottom: 0;
 }
 
 #register-form #comment {
     width: 500px;
     height: 200px;
-    vertical-align: text-top;
+    vertical-align: top;
 }
 
 #register-form #btnSubmit {
     width: 75px;
 }
 
+#register #download-app {
+    float: right;
+}
 
+#register #ontapadmin-logo {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: auto;
+}
+
+#center-logo {
+    text-align: center;
+    background-color: #FFCCCB;
+    overflow: auto;
+    margin-left: -4em;
+    margin-right: -4em;
+}
+
+#full-phone-num {
+    margin-top: 0em;
+    margin-bottom: -1em;
+}
+
+#features-section-admin {
+    background-color: #E5E5E5;
+}
+
+#admin-app-thumbnail {
+    height: 8em;
+}
+
+.app-store-download {
+    height: 3em;
+}
