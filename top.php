@@ -4,7 +4,7 @@
         <title>On Tap</title>
         <meta charset="utf-8">
         <meta name="author" content="Shack Inc.">
-        <meta name="description" content="On Tap">
+        <meta name="description" content="OnTap">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 

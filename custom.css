@@ -12,6 +12,9 @@ html {
 
 #container {
     min-height: 100%;
+    overflow: auto;
+    margin-left: -4em;
+    margin-right: -4em;
 }
 
 #main {
@@ -106,6 +109,17 @@ fieldset {
     list-style-type: none;
 }
 
+.user-view {
+    height: 500px;
+}
+
+.desc-title {
+    font-weight: bold;
+    border-bottom: solid #D80000;
+    color: #D80000;
+    margin-bottom: -0.5em;
+}
+
 /*------------------------   header section only  ------------------------------ */
 
 header h1 {
@@ -142,16 +156,98 @@ nav ol li a:hover {
 }
 
 /*------------------------   index page  only  ------------------------------ */
+
+#home-upper-section {
+    height: 700px;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
 #ontap-app-icon {
     height: 5em;
+    margin-bottom: 0.5em;
 }
 
 #home-page-app-download {
-    background-color: #E5E5E5;
     border-radius: 5px;
     align-self: right;
     text-align: center;
     float: right;
+    border: thick solid #D80000;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+#home-page-app-download h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#features {
+    text-align: center;
+    align-items: center;
+    display: table;
+}
+
+#home-bar-info-img {
+    margin-left: 0.5em;
+}
+
+#home-bar-cam-img {
+    margin-right: 0.5em;
+}
+
+.features-desc {
+    overflow-wrap: all;
+    width: 200px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    color: #D80000;
+}
+
+#home-feat-desc-1 {
+    margin-top: 275px;
+    float: left;
+    clear: all;
+}
+
+#home-feat-desc-2 {
+    float: right;
+    clear: all;
+    margin-top: 450px;
+}
+
+#home-feat-desc-3 {
+    float: left;
+    clear: all;
+    margin-top: 175px;
+}
+
+.info-titles {
+    height: 75px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-bottom: solid #D80000;
+    margin-bottom: 4em;
+    margin-top: 3em;
+}
+
+#features-center {
+
+    align-items: center;
+    text-align: center;
+    width: 49%;
+    float: left;
+}
+
+#features-left, #features-right {
+    width: 25%;
+    float: left;
+}
+
+#left-side-features {
+    list-style-type: none;
 }
 
 /*------------------------   register page  only  ------------------------------ */
@@ -161,6 +257,12 @@ nav ol li a:hover {
     border-radius: 2px;
     border-style: solid;
     border: thin solid gray;
+}
+
+#register-steps {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10em;
 }
 
 .long-input {
@@ -212,8 +314,26 @@ nav ol li a:hover {
     margin-bottom: -1em;
 }
 
-#features-section-admin {
+#admin-features-section {
     background-color: #E5E5E5;
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+#admin-features-left {
+    float: left;
+    width: 25%;
+}
+
+#admin-features-center {
+    float: left;
+    width: 50%;
+}
+
+#admin-features-right {
+    float: left;
+    width: 25%;
 }
 
 #admin-app-thumbnail {
@@ -223,3 +343,21 @@ nav ol li a:hover {
 .app-store-download {
     height: 3em;
 }
+
+#admin-features-desc-1 {
+    width: 250px;
+    margin-top: 250px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.admin-features-desc {
+    overflow-wrap: all;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    color: #D80000;
+}
+
+
+
