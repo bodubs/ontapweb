@@ -120,6 +120,10 @@ fieldset {
     margin-bottom: -0.5em;
 }
 
+.coming-soon {
+    margin-left: 100px;
+}
+
 /*------------------------   header section only  ------------------------------ */
 
 header h1 {
@@ -314,11 +318,12 @@ nav ol li a:hover {
     margin-bottom: -1em;
 }
 
-#admin-features-section {
+#admin-features-section-1 {
     background-color: #E5E5E5;
     display: table;
     text-align: center;
     width: 100%;
+    padding-bottom: 5em;
 }
 
 #admin-features-left {
@@ -359,5 +364,68 @@ nav ol li a:hover {
     color: #D80000;
 }
 
+#admin-features-desc-2 {
+    width: 250px;
+    margin-top: 400px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+#admin-features-section-2 h1 {
+    color: #D80000;
+    margin-left: 150px;
+    border-bottom: solid #D80000;
+    width: 550px;
+}
+
+#push-noti-desc {
+    color: #D80000;
+    margin-left: 150px;
+    width: 550px;
+}
+
+#admin-features-section-3 h1 {
+    color: #D80000;
+    margin-left: 150px;
+    border-bottom: solid #D80000;
+    width: 550px;
+}
+
+#admin-features-section-3 {
+    background-color: #E5E5E5;
+    display: table;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5em;
+}
+
+#about-admin-section {
+    width: 100%;
+    text-align: center;
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: #D80000;
+}
+
+#about-admin-section h4, h2 {
+    width: 50%;
+
+}
+
+#admin-nav {
+    width: 35%;
+    padding-right: 2em;
+    text-align: center;
+    margin-left: 27.5%;
+}
+
+#admin-nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 1em;
+    padding-left: 1em;
+}
 
 

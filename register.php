@@ -62,6 +62,18 @@ fclose($file);
 <!-- <div id="center-logo">
     <img src="OnTapAdmin-logo.png" alt="ontapadmin logo" id="ontapadmin-logo">
 </div> -->
+<div id="center-logo">
+    <img src="OnTapAdmin-logo.png" alt="ontapadmin logo" id="ontapadmin-logo"><br>
+    <ul id="admin-nav">
+        <li>Register</li>
+        <li>Features</li>
+        <li>Download</li>
+    </ul>
+</div>
+<div id="about-admin-section">
+    <h2>What is OnTap Admin?</h2>
+    <h4>OnTap Admin is the side of OnTap used by bar owners and managers. Bars will register with OnTap (for free!), and be able to control what content goes on your bars unique OnTap page!</h4>
+</div>
 <div id="register-steps">
     <h2>Want to Get Your Bar on OnTap?</h2>
     <h3>Step 1: Fill out the following form</h3>
@@ -102,7 +114,7 @@ fclose($file);
 
     <h3>Step 3: Please wait to be contacted by us for verification and log-in information!</h3>
 </div>
-<div id="admin-features-section">
+<div id="admin-features-section-1">
     <div id="admin-features-left">
         <div id="admin-features-desc-1">
             <h3 class="desc-title">Keep Info Current</h3>
@@ -115,7 +127,20 @@ fclose($file);
     <img src="admin-input-info-ui-view.png" alt="OnTap Admin Input Specials Info View" class="user-view"/>
     </div>
     <div id="admin-features-right">
+        <div id="admin-features-desc-2">
+            <h3 class="desc-title">Easy to Input</h3>
+            <p class="admin-features-desc">Quickly and easily input information!</p>
+        </div>
     </div>
+</div>
+<div id="admin-features-section-2">
+    <h1>Reach Your Customers Directly</h1>
+    <h3 id="push-noti-desc">Send push notifications to OnTap users letting them know about a special or event going on now!</h3>
+</div>
+<div id="admin-features-section-3">
+    <h1>Update and Control Your Bar's OnTap Page</h1>
+    <h3 id="push-noti-desc">Turn the Live Cam On or Off</h3>
+    <h3 id="push-noti-desc">Update the content on your bars OnTap page</h3>
 </div>
 
 <?php
