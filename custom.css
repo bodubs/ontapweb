@@ -183,9 +183,9 @@ nav ol li a:hover {
     align-self: right;
     text-align: center;
     float: right;
-    border: thick solid #D80000;
+    /*border: thick solid #D80000;*/
     padding: 0.5em;
-    margin-top: 1em;
+    margin-top: 14em;
 }
 
 #home-page-app-download h4 {
@@ -197,6 +197,7 @@ nav ol li a:hover {
     text-align: center;
     align-items: center;
     display: table;
+    margin-bottom: 4em;
 }
 
 #home-bar-info-img {
@@ -254,6 +255,7 @@ nav ol li a:hover {
     text-align: center;
     width: 49%;
     float: left;
+    margin-bottom: 4em;
 }
 
 #features-left, #features-right {
@@ -263,6 +265,43 @@ nav ol li a:hover {
 
 #left-side-features {
     list-style-type: none;
+}
+
+#features-2 {
+    background-color: #E5E5E5;
+    display: table;
+    width: 100%;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+#feat-2-left, #feat-2-right {
+    float: left;
+}
+
+#feat-2-left {
+    text-align: right;
+    width: 35%;
+}
+
+#feat-2-right {
+    width: 65%;
+}
+
+#feat-2-right h1 {
+    text-align: left;
+    color: #D80000;
+    border-bottom: solid #D80000;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#feat-2-right h3 {
+    text-align: left;
+    color: #D80000;
+    width: 400px;
+    margin-left: 100px;
 }
 
 /*------------------------   register page  only  ------------------------------ */

@@ -6,7 +6,7 @@ include 'top.php';
 ?>
 <div id="home-upper-section">
 	<div id="home-page-app-download">
-		<h4>Download Our Mobile App!</h4>
+		<!--<h4>Download Our Mobile App!</h4>-->
 		<img src="ontap-app-icon.png" alt="OnTap App Icon" id="ontap-app-icon"><br>
 		<img src="download-on-the-app-store-apple.svg" alt="apple-app-store-download" class="app-store-download">
 	</div>
@@ -35,7 +35,15 @@ include 'top.php';
 			<h3 class="desc-title">Easily Find Info</h3>
             <p class="admin-features-desc">Need to know information like hours, specials, and events at your favorite bars, all in one place!</p>
 	</div>
-
+</div>
+<div id="features-2">
+	<div id="feat-2-left">
+		<img src="ontap-mytap-ui-view.png" alt="OnTap MyTap View" class="user-view"/>
+	</div>
+	<div id="feat-2-right">
+		<h1>MyTap</h1>
+		<h3>Add your favorite bars to your MyTap list for easy access!</h3>
+	</div>
 </div>
 
 
