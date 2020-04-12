@@ -30,7 +30,7 @@
     		<ul>
     			<li class="footer-list-titles"><Strong>Company</Strong></li>
     			<li>About Us</li>
-    			<li>Terms of Service</li>
+    			<li><a href="privacy-policy.php">Privacy Policy</a></li>
     		</ul>
     	</li>
     </ul>
