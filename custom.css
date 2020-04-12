@@ -428,4 +428,26 @@ nav ol li a:hover {
     padding-left: 1em;
 }
 
+/* -------------------------- Privacy Policy Page Only --------------------------- */
+#privacy-policy {
+    overflow-wrap: all;
+    text-align: left;
+}
+
+#privacy-policy h1, #privacy-policy h3, #privacy-policy p {
+    width: 75%;
+    margin-left: 4em;
+}
+
+#privacy-policy h1 {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+#privacy-policy h3 {
+    margin-left: 3.5em;
+}
+
+
+
 
