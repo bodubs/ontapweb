@@ -162,9 +162,15 @@ nav ol li a:hover {
 /*------------------------   index page  only  ------------------------------ */
 
 #home-upper-section {
-    height: 700px;
+    height: 400px;
     padding-left: 4em;
     padding-right: 4em;
+    background-image: url('crowded-bar.png');
+}
+
+#find-your-spot {
+    height: 120px;
+    margin-top: 2em;
 }
 
 #ontap-app-icon {
@@ -210,16 +216,21 @@ nav ol li a:hover {
     color: #D80000;
 }
 
-#home-feat-desc-1 {
+#home-features-desc-1 {
     margin-top: 275px;
     float: left;
     clear: all;
+    text-align: left;
+    margin-left: 75px;
 }
 
-#home-feat-desc-2 {
+#home-features-desc-2 {
     float: right;
     clear: all;
     margin-top: 450px;
+    text-align: left;
+    width: 250px;
+    margin-right: 25px;
 }
 
 #home-feat-desc-3 {

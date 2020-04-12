@@ -11,12 +11,16 @@ include 'top.php';
 		<img src="download-on-the-app-store-apple.svg" alt="apple-app-store-download" class="app-store-download">
 	</div>
 
-	<h1>Know Where to Go!</h1>
+	<img src="find-your-spot.png" id="find-your-spot"/>
 </div>
 <div id="features">
 	<div id="features-left">
-		<p class="features-desc" id="home-feat-desc-1">Easily Find Information<br>like when your favorite bars are open!</p>
-		<p class="features-desc" id="home-feat-desc-3">Know what events are coming up!</p>
+		<div id="home-features-desc-1">
+			<h3 class="desc-title">Live Cam</h3>
+            <p class="admin-features-desc">See the capacity of a bar!</p>
+		<!--<p class="features-desc" id="home-feat-desc-1">Easily Find Information<br>like when your favorite bars are open!</p>-->
+			<!--<p class="features-desc" id="home-feat-desc-3">Know what events are coming up!</p>-->
+		</div>
 	</div>
 	<div id="features-center">
 		<img src="ontap-features-title.png" alt="OnTap Features Title" class="info-titles"/>
@@ -26,7 +30,10 @@ include 'top.php';
 		
 	</div>
 	<div id="features-right">
-		<p class="features-desc" id="home-feat-desc-2">See what specials are happening today!</p>
+		<!--<p class="features-desc" id="home-feat-desc-2">See what specials are happening today!</p>-->
+		<div id="home-features-desc-2">
+			<h3 class="desc-title">Easily Find Info</h3>
+            <p class="admin-features-desc">Need to know information like hours, specials, and events at your favorite bars, all in one place!</p>
 	</div>
 
 </div>
