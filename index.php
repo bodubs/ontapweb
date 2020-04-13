@@ -12,6 +12,7 @@ include 'top.php';
 	</div>
 
 	<img src="find-your-spot.png" id="find-your-spot"/>
+	<img src="ontap-saying-text.png" id="saying-text"/>
 </div>
 <div id="features">
 	<div id="features-left">

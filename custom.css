@@ -304,6 +304,10 @@ nav ol li a:hover {
     margin-left: 100px;
 }
 
+#saying-text {
+    height: 100px;
+}
+
 /*------------------------   register page  only  ------------------------------ */
 #register-form input, select {
     margin-bottom: 1em;
@@ -362,6 +366,8 @@ nav ol li a:hover {
     overflow: auto;
     margin-left: -4em;
     margin-right: -4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 #full-phone-num {
