@@ -65,12 +65,12 @@ fclose($file);
 <div id="center-logo">
     <img src="OnTapAdmin-logo.png" alt="ontapadmin logo" id="ontapadmin-logo"><br>
     <ul id="admin-nav">
-        <li>Register</li>
-        <li>Features</li>
+        <li><a href="#register-steps">Register</a></li>
+        <li><a href="#admin-features-section-1">Features</a></li>
         <li>Download</li>
     </ul>
 </div>
-<div id="about-admin-section">
+<div id="about-admin-section" name="register-steps">
     <h2>What is OnTap Admin?</h2>
     <h4>OnTap Admin is the side of OnTap used by bar owners and managers. Bars will register with OnTap (for free!), and be able to control what content goes on your bars unique OnTap page!</h4>
 </div>
@@ -114,7 +114,7 @@ fclose($file);
 
     <h3>Step 3: Please wait to be contacted by us for verification and log-in information!</h3>
 </div>
-<div id="admin-features-section-1">
+<div id="admin-features-section-1" name="features">
     <div id="admin-features-left">
         <div id="admin-features-desc-1">
             <h3 class="desc-title">Keep Info Current</h3>

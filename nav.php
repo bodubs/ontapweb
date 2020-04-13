@@ -25,7 +25,7 @@
         if ($PATH_PARTS['filename'] == 'register') {
             print ' class="activePage" ';
         }
-        print '><a href="register.php">Register Your Bar</a></li>';
+        print '><a href="register.php#center-logo">Register Your Bar</a></li>';
         
         ?>
     </ol>

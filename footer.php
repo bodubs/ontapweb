@@ -22,8 +22,8 @@
     	<li>
     		<ul>
     			<li class="footer-list-titles"><Strong>Register</Strong></li>
-    			<li>Form</li>
-    			<li>Services</li>
+    			<li><a href="register.php#register-steps">Form</a></li>
+    			<li><a href="register.php#admin-features-section-1">Services</a></li>
     		</ul>
     	</li>
     	<li>
