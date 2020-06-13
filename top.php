@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>On Tap</title>
+        <title>WhatsOnTap</title>
         <meta charset="utf-8">
         <meta name="author" content="Shack Inc.">
-        <meta name="description" content="OnTap">
+        <meta name="description" content="WhatsOnTap">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,8 +20,6 @@
         include 'lib/security.php';
         
         include 'lib/validation-functions.php';
-
-        //include LIB_PATH . '/Connect-With-Database.php';
         
         include 'lib/mail-message.php';
 

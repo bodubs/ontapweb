@@ -1,19 +1,14 @@
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%     Page header   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<div id="container">
+	<div id="main">
 <header>
-    <img src="ontap-logo.png" alt="On Tap Logo" id="ontap-logo"/>  
+    <a href="index.php"><img src="whatsontap-logo.png" alt="On Tap Logo" id="ontap-logo"/><a>  
     <?php
     include 'nav.php';
     ?>
+    <div id="mobile-nav"></div>
     
 </header>
 <!-- %%%%%%%%%%%%%%%%%%%%% Ends Page header   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-<?php
-	if ($PATH_PARTS['filename'] == 'register') {
-            print '<div id="center-logo">
-    				<img src="OnTapAdmin-logo.png" alt="ontapadmin logo" id="ontapadmin-logo">
-					</div>';
-    }
-?>
-<div id="container">
-	<div id="main">
+

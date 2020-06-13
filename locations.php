@@ -5,8 +5,8 @@ include 'top.php';
 
 ?>
 
-<h1>Coming Soon!</h1>
-<h3>There are no bars currently registered with OnTap.</h3>
+<h1 class="coming-soon">Coming Soon!</h1>
+<h3 class="coming-soon">There are no bars currently registered with WhatsOnTap.</h3>
 
 <?php
 
